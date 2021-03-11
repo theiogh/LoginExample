@@ -8,4 +8,5 @@
   * Android Studio (JAVA)
   * 닷홈(무료 호스팅 제공)
   * PHPmyadmin
-  * FileZilla (FTP)
+  * FileZilla(FTP)
+  * Visual Studio Code(PHP)
