@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SignupActivity"
+    android:orientation="vertical"
+    android:background="@drawable/water_signup">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="400dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/et_Name"
+            android:layout_width="310dp"
+            android:layout_height="wrap_content"
+            android:hint="Name"
+            android:textSize="18dp"
+            android:textColorHint="#BEBEBE"
+            android:layout_marginLeft="50dp"
+            android:textColor="@color/black"
+            android:layout_marginTop="11dp"/>
+
+        <EditText
+            android:id="@+id/et_Email"
+            android:layout_width="310dp"
+            android:layout_height="wrap_content"
+            android:hint="Email"
+            android:textColorHint="#BEBEBE"
+            android:textSize="18dp"
+            android:layout_marginLeft="50dp"
+            android:textColor="@color/black"
+            android:layout_marginTop="11dp"/>
+
+        <EditText
+            android:id="@+id/et_Password"
+            android:layout_width="310dp"
+            android:layout_height="wrap_content"
+            android:hint="Password"
+            android:textColorHint="#BEBEBE"
+            android:textSize="18dp"
+            android:layout_marginLeft="50dp"
+            android:textColor="@color/black"
+            android:layout_marginTop="11dp"/>
+
+        <Button
+            android:id="@+id/btn_Sign"
+            android:layout_width="310dp"
+            android:layout_height="47dp"
+            android:layout_marginTop="20dp"
+            android:text="Sign up"
+            android:textSize="15dp"
+            android:textColor="#ffffff"
+            android:textStyle="bold"
+            android:layout_marginLeft="50dp"
+            android:layout_marginBottom="5dp"
+            android:background="@drawable/ic_rectangle_2main_sign"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="63dp"
+            android:background="@drawable/ic_group_1or" />
+
+        <Button
+            android:id="@+id/btn_Login"
+            android:layout_width="310dp"
+            android:layout_height="47dp"
+            android:layout_marginTop="5dp"
+            android:text="Log in"
+            android:textSize="15dp"
+            android:textColor="#BEBEBE"
+            android:textStyle="bold"
+            android:layout_marginLeft="50dp"
+            android:background="@drawable/ic_rectangle_4graystroke"/>
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

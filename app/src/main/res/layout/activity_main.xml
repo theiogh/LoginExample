@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:background="@drawable/water_main">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="510dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:text="Login_Signup"
+            android:textColor="#ffffff"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="center">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Welcome!"
+            android:textSize="37dp"
+            android:layout_marginLeft="50dp"
+            android:textStyle="bold"
+            android:textColor="#ffffff"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="학습을 위한 프로젝트입니다."
+            android:textColor="#ffffff"
+            android:layout_marginLeft="50dp" />
+
+        <!-- 안드로이드 4.1 이후 themes의 속성이 Button Background를 무시하고 진행됩니다.
+        Background를 사용하기 위해선 Themes의 parent="Theme.AppCompat.DayNight.DarkActionBar"로 변경해야합니다.-->
+        <Button
+            android:id="@+id/btn_Login"
+            android:layout_width="310dp"
+            android:layout_height="47dp"
+            android:layout_marginTop="20dp"
+            android:text="Log in"
+            android:textSize="15dp"
+            android:textColor="#006BFF"
+            android:textStyle="bold"
+            android:layout_marginLeft="50dp"
+            android:background="@drawable/ic_rectangle_1main_login"/>
+
+        <Button
+            android:id="@+id/btn_Sign"
+            android:layout_width="310dp"
+            android:layout_height="47dp"
+            android:layout_marginTop="20dp"
+            android:text="Sign up"
+            android:textSize="15dp"
+            android:textColor="#ffffff"
+            android:textStyle="bold"
+            android:layout_marginLeft="50dp"
+            android:background="@drawable/ic_rectangle_2main_sign"/>
+
+
+    </LinearLayout>
+
+
+
+
+</LinearLayout>
