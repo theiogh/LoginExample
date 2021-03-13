@@ -51,6 +51,7 @@
  회원가입 등록 성공,실패 결과는 Toast메세지로 알려집니다.  
  
 4. UI
-
+ 편집은 Figma를 이용했습니다.  
  기본적인 UI는 다음과 같습니다.
 
+<a href="#"><img src="https://github.com/theiogh/LoginExample/blob/master/app/src/main/res/Login_Signup_UI.png" width="1400px" alt="Login_Signup_UI"></a>
